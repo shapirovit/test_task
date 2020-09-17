@@ -1,4 +1,4 @@
-public class typeConversion {
+public class TypeConversion {
 
     public static int toIntFromString(String num) {
         return Integer.parseInt(num);

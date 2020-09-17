@@ -1,4 +1,4 @@
-public class typeCheck {
+public class TypeCheck {
     public static boolean isInt(String number) throws NumberFormatException {
         try {
             Integer.parseInt(number);
@@ -13,7 +13,7 @@ public class typeCheck {
     }
 
     public static boolean isCorrectRoman (String number) {
-        return typeConversion.toArabicFromRoman(number) != -1;
+        return TypeConversion.toArabicFromRoman(number) != -1;
     }
 
     public static boolean isCorrectOperator (String operator) {

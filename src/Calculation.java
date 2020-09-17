@@ -1,4 +1,4 @@
-public class calculation {
+public class Calculation {
 
     public static int sum(int a, int b) {
         return a + b;
@@ -20,16 +20,16 @@ public class calculation {
         int result;
         switch(operator) {
             case "+":
-                result = calculation.sum(a, b);
+                result = Calculation.sum(a, b);
                 break;
             case "-":
-                result = calculation.diff(a, b);
+                result = Calculation.diff(a, b);
                 break;
             case "*":
-                result = calculation.multiply(a, b);
+                result = Calculation.multiply(a, b);
                 break;
             case "/":
-                result = calculation.division(a, b);
+                result = Calculation.division(a, b);
                 break;
             default:
                 result = 0;
